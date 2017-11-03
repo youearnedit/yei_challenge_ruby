@@ -2,7 +2,7 @@
 
 Hello!  We're so thrilled you're applying to join us at YEI!
 
-To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with the Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around premise below.
+To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around premise below.
 
 
 ### Our Challenge
