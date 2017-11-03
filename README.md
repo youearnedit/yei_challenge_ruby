@@ -5,14 +5,16 @@ Hello!  We're so thrilled you're applying to join us at YEI!
 We'd ask that you spend a few hours (3-5) crafting your submission in a way that shows your skills as a developer, and your committment to writing well crafted code.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this challenge is for you to demonstrate your problem-solving and testing skills using Ruby and the Rails framework.  This challenge is a sort of 'choose your own adventure' problem based around the following premise.
 
 ```
-  Using the public [Github API](https://developer.github.com/v3/), build a rudimentary service in Ruby that
+  Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service in Ruby that
 
   1. Finds the latest N open issues in the Rails repository that are not assigned to anyone.
   2. Groups the issues into subsets based on components (see list below).
-  3. Handles sorting the issues by the # of comments by most to fewest.
+  3. Sorts the issues by the number of comments from most comments to the fewest.
 ```
 
-Components that issues should be grouped by:
+### Rails Components
+
+In the repository, the Rails team uses labels to define the components of the stack the issues relate to.  The components we'd like you to get issues for are:
 
 - ActionCable
 - ActionMailer
@@ -24,6 +26,8 @@ Components that issues should be grouped by:
 - ActiveStorage
 - ActiveSupport
 - Asset Pipeline
+
+Feel free to ignore the other labels.
 
 ### Things you can/should use:
 - Ruby (*required*)
@@ -38,7 +42,7 @@ Components that issues should be grouped by:
 - Leave comments if appropriate, but don't worry about commenting up everything, just explain any 'hard parts'.
 
 ### Things to avoid doing:
-- Don't use a gem for the github api, we want to see that you can solve for it.
+- Don't use a gem for the github api, we want to see that you can solve for it.  If you're doing a GraphQL integration, feel free to use GraphQL libraries though
 - Don't submit broken code - your solution should be functional
 - Don't spend too much time
 - Don't break out your code into separate application services.  A monolith is fine.
