@@ -2,15 +2,13 @@
 
 Hello!  We're so thrilled you're applying to join us at YEI!
 
-To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with the Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around the following premise:
+To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with the Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around premise below.
 
-```
-  Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service in Ruby that
 
-  1. Finds the latest N open issues in the Rails repository that are not assigned to anyone.
-  2. Groups the issues into subsets based on components (see list below).
-  3. Sorts the issues by the number of comments from most comments to the fewest.
-```
+### Our Challenge
+
+  Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service in Ruby that queries the [Rails](https://github.com/rails/rails) repository for the latest open issues that are unassigned.  The service should provide the ability to filtered the results by component (explained below) and ordered by comment counts, as well as anything else your implementation needs.
+
 
 ### Rails Components
 
