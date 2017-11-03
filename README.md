@@ -55,3 +55,12 @@ At YEI, we test our code as often as we can to ensure things are sound - we'd ex
 - Write a README - this should explain what you implemented (high level), how to get the code running, and how to interact with it (CLI, web app, etc.)
 - Please include a .ruby-version file and a Gemfile for dependencies
 - While we love git and github, we don't want our candidates to be able to see each other's work and the history of the project.  Please take your entire directory, and zip or tarball it for submission.
+
+### Whats next?
+
+After you submit your solution, we're going to go review your code, see what you implemented and how you did it.  This will be our basis to get a brief understanding of your abilities in code, as well as a well-understood problem set to follow up with our technical interview - a pairing session with one of our teammates.
+
+For the pairing session:
+
+- You should be prepared to talk about any of the complex parts of your solution, why you solved things a certain way, and what challenges you faced.
+- You should be prepared to modify your code as a pair, including running your test suite, having the app running, etc
