@@ -7,7 +7,7 @@ To help us learn a little about how you work and write code, we ask that you spe
 
 ### Our Challenge
 
-  Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service in Ruby that queries the [Rails](https://github.com/rails/rails) repository for the latest open issues that are unassigned.  The service should provide the ability to filtered the results by component (explained below) and ordered by comment counts, as well as anything else your implementation needs.
+  Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service in Ruby that queries the [Rails](https://github.com/rails/rails) repository for the latest open issues that are unassigned.  The service should provide the ability to filter the results by component (explained below) and order by comment counts, as well as anything else your implementation needs.
 
 
 ### Rails Components
