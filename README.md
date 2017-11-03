@@ -31,7 +31,7 @@ Feel free to ignore the other labels.
 
 I'm going to build a Rails app with an adapter for the Github API v3 (unauthenticated) that uses a HTTP library to make the requests, build out an object oriented parser to handle the response data and persist it into SQLite, then build a query object to handle the sorting and filtering of the issue data for presentation in the UI.  I'm going to test the boundaries of my application and mock the response data from Github.
 
-I'm going to build a Rails app that doesnt persist any data from the Github API, but offers real-time requests to the API, controlled by a basic AJAX UI.  I'm going to user VCR to handle test coverage of the adapter to Github interactions, and will test the query interface exposed by my API controller.
+I'm going to build a Rails app that doesnt persist any data from the Github API, but offers real-time requests to the API, controlled by a basic AJAX UI.  I'm going to use VCR to handle test coverage of the adapter to Github interactions, and will test the query interface exposed by my API controller.
 
 ### Things you can/should use:
 - Ruby (*required*)
