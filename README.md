@@ -2,7 +2,7 @@
 
 Hello!  We're so thrilled you're applying to join us at YEI!
 
-We'd ask that you spend a few hours (3-5) crafting your submission in a way that shows your skills as a developer, and your committment to writing well crafted code.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this challenge is for you to demonstrate your problem-solving and testing skills using Ruby and the Rails framework.  This challenge is a sort of 'choose your own adventure' problem based around the following premise.
+To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with the Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around the following premise:
 
 ```
   Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service in Ruby that
