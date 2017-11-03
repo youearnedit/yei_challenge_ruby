@@ -2,7 +2,7 @@
 
 Hello!  We're so thrilled you're applying to join us at YEI!
 
-To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around premise below.
+To help us learn a little about how you work and write code, we ask that you spend a few hours (3-5) on the following code problem. The goal of this is for you to have an opportunity to show your skills as a developer with Ruby and the Rails framework, and your committment to writing well crafted code, in a setting that is most comfortable to you.  Please don't spend too much time - we want to be mindful of what we're asking you to commit.  The goal of this is not to have a production-ready application.  This challenge is a sort of 'choose your own adventure' problem based around premise below.  Be sure to be mindful of how long it will take to implement your solution, this is not about how much you build, but about the quality of _what_ you build.
 
 
 ### Our Challenge
@@ -27,6 +27,12 @@ In the repository, the Rails team uses labels to define the components of the st
 
 Feel free to ignore the other labels.
 
+### Example solutions (You can use these if you want!)
+
+I'm going to build a Rails app with an adapter for the Github API v3 (unauthenticated) that uses a HTTP library to make the requests, build out an object oriented parser to handle the response data and persist it into SQLite, then build a query object to handle the sorting and filtering of the issue data for presentation in the UI.  I'm going to test the boundaries of my application and mock the response data from Github.
+
+I'm going to build a Rails app that doesnt persist any data from the Github API, but offers real-time requests to the API, controlled by a basic AJAX UI.  I'm going to user VCR to handle test coverage of the adapter to Github interactions, and will test the query interface exposed by my API controller.
+
 ### Things you can/should use:
 - Ruby (*required*)
 - Rails/Sinatra/Grape/no web stack - you're welcome to build a ruby only app thats CLI based, or a web app.
@@ -40,11 +46,13 @@ Feel free to ignore the other labels.
 - Leave comments if appropriate, but don't worry about commenting up everything, just explain any 'hard parts'.
 
 ### Things to avoid doing:
-- Don't use a gem for the github api, we want to see that you can solve for it.  If you're doing a GraphQL integration, feel free to use GraphQL libraries though
+- This is not a 'build as many features as possible' challenge - consider the time to implement, and build what you can accordingly.
+- Don't overuse gems - if you're building a sweet frontend and not the backend, use a github gem.  If you're focusing on building a backend, dont use the gem, show us the code!
 - Don't submit broken code - your solution should be functional
 - Don't spend too much time
 - Don't break out your code into separate application services.  A monolith is fine.
 - Please don't put your solution on Github.  We'd love our candidates to keep their solutions to themselves.
+
 
 ### What we're looking for in a solution
 We want to see that you can a) code, b) problem solve, c) organize your thoughts into a reasonable implementation.  We love looking at elegant solutions, but don't be too crafty or non-normal in your coding style.  We're looking to see that you follow common standards and conventions, and that you follow well understood paradigms like DRY, separation of concerns, and good object orientation.
