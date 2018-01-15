@@ -44,6 +44,7 @@ I'm going to build a Rails app that doesnt persist any data from the Github API,
 - Show us your skills - this can be done by building out a robust api integration, or building an ETL processor to persist the data from the API, or build a nice clean API of your own to expose the data you transform from Github, or build a fancy UI around a basic API of your own using other tools like JS.  This is where you can _really_ show off who you are and what you can do.  Just don't go too overboard on time.
 - Write clean, well tested, well organized code.
 - Leave comments if appropriate, but don't worry about commenting up everything, just explain any 'hard parts'.
+- Use the rails app in `./youearnedit` - this will help minimize changes so we can focus on your code.
 
 ### Things to avoid doing:
 - This is not a 'build as many features as possible' challenge - consider the time to implement, and build what you can accordingly.
