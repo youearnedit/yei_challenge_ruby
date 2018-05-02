@@ -33,7 +33,7 @@ I'm going to build a Rails app with an adapter for the Github API v3 (unauthenti
 
 I'm going to build a Rails app that doesn't persist any data from the Github API, but offers real-time requests to the API, controlled by a basic AJAX UI.  I'm going to use VCR to handle test coverage of the adapter to Github interactions, and will test the query interface exposed by my API controller.
 
-## Things you can/should use:
+## Things you can/should use
 
 - We love Ruby on Rails. Are you comfortable there? Awesome, this is the most straight forward for us to evaluate.
 - All of our backend code is Ruby by default. Don't feel comfortable in Rails? Feel free to switch it up. Remember though, we might not be experts in your tooling so explain your choices of different technology the way you would introduce new tech to your team.
@@ -42,7 +42,7 @@ I'm going to build a Rails app that doesn't persist any data from the Github API
 - RSpec, Minitest, Test::Unit, Bacon, Riot - write tests, use what you like.
 - MongoDB, PostgreSQL, SQLite - if you need a database, please pick one of these.
 
-## Things you should do:
+## Things you should do
 Show us your skills - this can be:
 - Building out a robust api integration
 - Building an ETL processor to persist the data from the API
@@ -58,7 +58,7 @@ Make sure you:
 - Use the rails app in `./youearnedit` as the base. Feel free to ignore parts that aren't relevant to your example. Using this as a starting point will help minimize changes so we can focus on your code.
 
 
-## Things to avoid doing:
+## Things to avoid doing
 
 - This is not a 'build as many features as possible' challenge - consider the time to implement, and build what you can accordingly.
 - Don't overuse gems - if you're building a sweet frontend and not the backend, use a GitHub gem.  If you're focusing on building a backend, don't use the gem, show us the code!
