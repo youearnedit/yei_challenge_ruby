@@ -53,7 +53,7 @@ This is where you can _really_ show off who you are and what you can do. Just do
 Make sure you:
 - Write clean, well tested, well organized code.
 - Leave comments if appropriate. We don't comment everything. We just explain the "hard parts."
-- Use the rails app in `./youearnedit` as the base. Feel free to ignore parts that aren't relevant to your example. Using this as a starting point will help minimize changes so we can focus on your code.
+- Don't spend too much time on setting up your environment. This repo ships with a base rails app in `./youearnedit`. If you want to use React, we recommend using [Create React App](https://github.com/facebook/create-react-app/) or [webpacker](https://github.com/rails/webpacker) to set up the dev environment. Feel free to ignore parts that aren't relevant to your example. Using this as a starting point will help minimize changes so we can focus on your code.
 
 ## Things to avoid doing
 
