@@ -7,8 +7,14 @@ To help us learn a little about how you work and write code, we ask that you spe
 
 ## Our Challenge
 
-Using the public [Github API](https://developer.github.com/v3/) or Github's GraphQL API, build a rudimentary service that queries the [Rails](https://github.com/rails/rails) repository for the latest open issues that are unassigned.  The service should provide the ability to filter the results by component (explained below) and order by comment counts, as well as anything else your implementation needs.
+Using the public [Github API](https://developer.github.com/v3/) or [Github's GraphQL API](https://developer.github.com/v4/), build a rudimentary service that queries the [Rails](https://github.com/rails/rails) repository for the latest open issues that are unassigned.
 
+The service should provide the ability for the end User to do the following:
+
+1. Filter the results by component (explained below)
+2. Order the results by comment counts (ie. most commented to least, least to most)
+
+As well as anything else your implementation needs.
 
 ## Rails Components
 
